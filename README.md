@@ -91,5 +91,11 @@ Through building this project from scratch, I was able to solidify and master se
 
 This project deepened my understanding of how professional UIs are built and prepared me to approach front-end challenges with a more structured and scalable mindset.
 
+---
+
+## Special Thanks
+
+Thanks to [@SuperSimpleDev](https://github.com/SuperSimpleDev) for the excellent course that inspired and guided the creation of this YouTube homepage replica.
+
 
 
