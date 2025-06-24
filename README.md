@@ -69,9 +69,8 @@ Media queries allow the layout to adapt gracefully:
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-}```
+}
 
----
  ## What I Learned
 
 Through building this project from scratch, I was able to solidify and master several key front-end development concepts:
