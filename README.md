@@ -50,26 +50,17 @@ Each video preview is wrapped in a `div.video-preview`, containing:
 
 ---
 
-### 📱 Responsiveness
+### Responsiveness
 
-Media queries allow the layout to adapt gracefully:
+The layout is made fully responsive using media queries. It adjusts the video grid column count based on screen width:
 
-```css
-@media(max-width: 600px) {
-  .video-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media(min-width: 751px) and (max-width: 999px) {
-  .video-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-@media(min-width: 1000px) {
-  .video-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
+On mobile devices (≤600px): The grid shows 2 columns for compact view.
+
+On tablets (751px to 999px): The layout expands to 3 columns.
+
+On desktops (≥1000px): A full 4-column grid provides a rich browsing experience.
+
+These breakpoints ensure smooth adaptability across devices, enhancing usability and visual consistency.
 
  ## What I Learned
 
