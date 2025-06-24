@@ -69,7 +69,7 @@ Media queries allow the layout to adapt gracefully:
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-}
+}```
 
 ---
  ## What I Learned
