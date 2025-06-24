@@ -5,7 +5,7 @@
  
 ---
 
-### 🧾 HTML (`index.html`)
+### 🧾 HTML (`youtube.html`)
 
 - Built using **semantic tags**: `<header>`, `<nav>`, `<main>`, and `<section>`.
 - Contains **three core sections**:
@@ -25,7 +25,7 @@ Each video preview is wrapped in a `div.video-preview`, containing:
 #### `general.css`
 - Applies default `body` styling and global padding/margins.
 - Uses **Roboto / Arial** font family for a clean UI look.
-- Sets `background-color`, `padding-top` for header space, and `padding-left` for sidebar.
+- Sets `background-color`, `padding` for header space, and `padding` for sidebar.
 
 #### `header.css`
 - Styles the top **header bar**, including:
@@ -71,7 +71,7 @@ Media queries allow the layout to adapt gracefully:
   }
 }
 
-
+---
  ## What I Learned
 
 Through building this project from scratch, I was able to solidify and master several key front-end development concepts:
